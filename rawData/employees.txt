@@ -1,0 +1,10 @@
+1,John Doe,IT,50000
+2,Jane Smith,HR,45000
+3,Bob Johnson,IT,60000
+4,Alice Brown,Finance,55000
+5,Charlie Davis,HR,47000
+6,Emma Wilson,IT,52000
+7,David Lee,Finance,58000
+8,Sarah Clark,IT,51000
+9,Michael Adams,HR,46000
+10,Laura Taylor,Finance,59000

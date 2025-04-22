@@ -1,0 +1,9 @@
+{
+	"name": "synapsedfactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2371a71d-02ee-43b6-abed-8e2f490264cb",
+		"tenantId": "ce8c4d7a-a63a-4bb5-a5a6-93f13181ec1a"
+	}
+}

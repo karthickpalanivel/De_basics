@@ -1,0 +1,14 @@
+{
+	"name": "sparkConfiguration1",
+	"properties": {
+		"configs": {
+			"spark.cores.max": "24"
+		},
+		"created": "2025-04-23T05:45:33.8450000+05:30",
+		"createdBy": "karthickpalanivel4@gmail.com",
+		"annotations": [],
+		"configMergeRule": {
+			"artifact.currentOperation.spark.cores.max": "replace"
+		}
+	}
+}

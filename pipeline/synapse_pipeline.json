@@ -1,0 +1,86 @@
+{
+	"name": "synapse_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy_cih",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "filesstored//student_habits.csv"
+					},
+					{
+						"name": "Destination",
+						"value": "result-output//"
+					}
+				],
+				"typeProperties": {
+					"source": {
+						"type": "BinarySource",
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
+							"deleteFilesAfterCompletion": false
+						},
+						"formatSettings": {
+							"type": "BinaryReadSettings"
+						}
+					},
+					"sink": {
+						"type": "BinarySink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings",
+							"blockSizeInMB": 32
+						}
+					},
+					"enableStaging": true,
+					"stagingSettings": {
+						"linkedServiceName": {
+							"referenceName": "blobstorageSyanpse",
+							"type": "LinkedServiceReference"
+						},
+						"path": "stagging"
+					},
+					"logSettings": {
+						"enableCopyActivityLog": true,
+						"copyActivityLogSettings": {
+							"logLevel": "Warning",
+							"enableReliableLogging": true
+						},
+						"logLocationSettings": {
+							"linkedServiceName": {
+								"referenceName": "blobstorageSyanpse",
+								"type": "LinkedServiceReference"
+							},
+							"path": "loggings"
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "SourceDataset_cih",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "DestinationDataset_cih",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-04-22T23:37:22Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_cih",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobstorageSyanpse",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "student_habits.csv",
+				"container": "filesstored"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

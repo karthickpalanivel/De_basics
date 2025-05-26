@@ -1,0 +1,12 @@
+cus_acc_number,cc_number,cc_type,cc_category
+100001,40000,MasterCard,Silver
+100002,40001,MasterCard,Platinum
+100003,40002,MasterCard,Platinum
+100004,40003,Visa,Gold
+100005,40004,Visa,Gold
+100006,40005,MasterCard,Gold
+100007,40006,Visa,Gold
+100008,40007,Visa,Silver
+100009,40008,Visa,Silver
+100010,40009,MasterCard,Gold
+,,,

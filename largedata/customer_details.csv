@@ -1,0 +1,11 @@
+cus_id,cname,cphone,caddress,ccity,cpincode,cstate,ccountry,nri
+CUST001,sam,9528849583,"364 Street, Delhi",Delhi,121491,TN,India,FALSE
+CUST002,calm,9497005209,"715 Street, Chennai",Chennai,154242,TN,India,FALSE
+CUST003,palm,9336175779,"683 Street, Chennai",Chennai,988441,WB,India,FALSE
+CUST004,sam,9313151645,"266 Street, Delhi",Delhi,407884,KA,India,FALSE
+CUST005,jam,9316360879,"478 Street, Chennai",Chennai,449508,DL,India,FALSE
+CUST006,john,9188822449,"994 Street, Delhi",Delhi,273445,WB,India,FALSE
+CUST007,doe,9112497400,"921 Street, Delhi",Delhi,363157,KA,India,FALSE
+CUST008,ram,9655403444,"887 Street, Kolkata",Kolkata,164337,KA,India,TRUE
+CUST009,murugan,9047231820,"259 Street, Delhi",Delhi,725591,TN,India,TRUE
+CUST010,ram,9596966889,"382 Street, Delhi",Delhi,792819,MH,India,TRUE

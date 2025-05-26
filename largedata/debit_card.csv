@@ -1,0 +1,11 @@
+dc_acc_number,dc_number,dc_type,dc_category
+100001,50000,Visa,Classic
+100002,50001,RuPay,Premium
+100003,50002,RuPay,Classic
+100004,50003,RuPay,Premium
+100005,50004,RuPay,Premium
+100006,50005,Visa,Premium
+100007,50006,RuPay,Premium
+100008,50007,Visa,Classic
+100009,50008,Visa,Classic
+100010,50009,Visa,Classic
